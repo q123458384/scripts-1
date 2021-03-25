@@ -21,9 +21,7 @@ scripts_base_url_6=https://raw.githubusercontent.com/cui521/jdqd/main/
 
 #####################  作者脚本名称 ##########################
 #维护:i-chenzhe     库地址:https://github.com/i-chenzhe/qx
-my_scripts_list_1="
-
-" 
+my_scripts_list_1="" 
 
 #维护:moposmall     库地址:https://github.com/moposmall/Script/tree/main/Me
 my_scripts_list_2="jx_cfd_exchange.js"
@@ -68,7 +66,7 @@ do
       continue
     else
       if [ ${check_file} == "blank" ]; then
-        eval name=$author"_"$js
+        eval name=$js
         echo $name"--发现新脚本"
       else
         for js_name in $check_file
@@ -77,7 +75,7 @@ do
             rm -f "$js_name"
             echo -e "已删除一个重复的 $js 脚本"
           else
-            eval name=$author"_"$js
+            eval name=$js
             echo $name"--只发现1个脚本，故继续保留作者前缀"
           fi
         done
