@@ -61,7 +61,7 @@ my_scripts_list_6=""
 Enableproxy="false"
 
 ######################### 脚本保存位置 #########################   
-cd /etc/github/new_repo/scripts/
+cd /etc/github/new_repo/scripts/js
 index=1
 
 for author in $author_list
