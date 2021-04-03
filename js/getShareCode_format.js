@@ -8,7 +8,7 @@ jd_get_share_code 日志 专用
 只支持nodejs
 
 #获取互助码并格式化/docker自动更新容器下所有账号互助码
-55 23 * * * https://gitee.com/qq34347476/quantumult-x/raw/master/format_share_jd_code.js, tag=获取互助码并格式化/docker自动更新容器下所有账号互助码, img-url=https://raw.githubusercontent.com/yogayyy/task/master/huzhucode.png, enabled=true
+55 23 * * * https://gitee.com/qq34347476/quantumult-x/raw/master/getShareCode_format.js, tag=获取互助码并格式化/docker自动更新容器下所有账号互助码, img-url=https://raw.githubusercontent.com/yogayyy/task/master/huzhucode.png, enabled=true
 
  */
 const $ = new Env("获取互助码并格式化/docker自动更新容器下所有账号互助码");
